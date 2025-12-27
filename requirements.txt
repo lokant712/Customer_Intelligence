@@ -1,3 +1,6 @@
-opensearch-py
+faiss-cpu
+numpy
 sentence-transformers
 google-genai
+streamlit
+python-dotenv

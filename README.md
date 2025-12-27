@@ -1,43 +1,39 @@
-# Customer Intelligence RAG
+# Customer Intelligence RAG (FAISS Edition)
 
-This project is a Retrieval-Augmented Generation (RAG) system that answers questions about customer data using OpenSearch and Google Gemini.
+This project answers questions about customer data using simple local vector search (FAISS) and Google Gemini.
 
 ## Prerequisites
 
-*   Docker and Docker Compose
-*   A Google Gemini API Key (edit `llm.py` or set it up to read from env if you prefer)
+*   Python 3.9+
+*   Google Gemini API Key
 
-## How to Run
+## Setup
 
-1.  **Start OpenSearch**:
+1.  **Install Dependencies**:
     ```bash
-    docker-compose up -d opensearch
+    pip install -r requirements.txt
     ```
-    Wait a moment for OpenSearch to start.
 
 2.  **Set API Key**:
-    Create a `.env` file or export the variable:
+    Windows (PowerShell):
+    ```powershell
+    $env:GEMINI_API_KEY="your_api_key_here"
+    ```
+    Mac/Linux:
     ```bash
     export GEMINI_API_KEY="your_api_key_here"
     ```
 
-3.  **Setup Index**:
-    ```bash
-    docker-compose run app python index_setup.py
-    ```
+## How to Run
 
-3.  **Ingest Data**:
+1.  **Ingest Data** (Run this once or whenever data changes):
     ```bash
-    docker-compose run app python ingest.py
+    python ingest.py
     ```
+    This creates `faiss_index.bin` and `metadata.json`.
 
-4.  **Run the App**:
+2.  **Run the Web App**:
     ```bash
-    docker-compose run app
+    streamlit run app.py
     ```
-    (Or `docker-compose run app python main.py` explicitly).
-
-## Files
-*   `data/customer_data.csv`: Your source data.
-*   `docker-compose.yml`: Defines the services.
-*   `Dockerfile`: Builds the Python app.
+    Open the URL shown (usually `http://localhost:8501`).

@@ -1,0 +1,50 @@
+[
+  {
+    "customer_id": "C101",
+    "text": "Delivery was delayed twice and customer support did not respond",
+    "sentiment": "negative",
+    "timestamp": "2025-02-10"
+  },
+  {
+    "customer_id": "C102",
+    "text": "Product quality is good but delivery was slow",
+    "sentiment": "neutral",
+    "timestamp": "2025-02-11"
+  },
+  {
+    "customer_id": "C103",
+    "text": "Excellent service and fast delivery",
+    "sentiment": "positive",
+    "timestamp": "2025-02-12"
+  },
+  {
+    "customer_id": "C104",
+    "text": "Customer support responded late regarding my refund request",
+    "sentiment": "negative",
+    "timestamp": "2025-02-13"
+  },
+  {
+    "customer_id": "C105",
+    "text": "The product arrived on time and was well packaged",
+    "sentiment": "positive",
+    "timestamp": "2025-02-14"
+  },
+  {
+    "customer_id": "C106",
+    "text": "Delivery took longer than expected and tracking information was inaccurate",
+    "sentiment": "negative",
+    "timestamp": "2025-02-15"
+  },
+  {
+    "customer_id": "C107",
+    "text": "Good product quality but the packaging was damaged",
+    "sentiment": "neutral",
+    "timestamp": "2025-02-16"
+  },
+  {
+    "customer_id": "C108",
+    "text": "Fast delivery and helpful customer support",
+    "sentiment": "positive",
+    "timestamp": "2025-02-17"
+  }
+]
