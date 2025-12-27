@@ -1,0 +1,19 @@
+{
+  "settings": {
+    "index": {
+      "knn": true
+    }
+  },
+  "mappings": {
+    "properties": {
+      "customer_id": { "type": "keyword" },
+      "text": { "type": "text" },
+      "sentiment": { "type": "keyword" },
+      "timestamp": { "type": "date" },
+      "embedding": {
+        "type": "knn_vector",
+        "dimension": 384
+      }
+    }
+  }
+}
