@@ -37,3 +37,18 @@ This project answers questions about customer data using simple local vector sea
     streamlit run app.py
     ```
     Open the URL shown (usually `http://localhost:8501`).
+
+3.  **Run the Telegram Bot**:
+    *   **Prerequisite**: Create a bot with [@BotFather](https://t.me/BotFather) and get your token.
+    *   **Set Token**:
+        ```powershell
+        $env:TELEGRAM_BOT_TOKEN="your_token"
+        ```
+    *   **Run**:
+        ```bash
+        python telegram_bot.py
+        ```
+    *   **Commands**:
+        *   `/start`: Welcome message.
+        *   `/ping`: Check connectivity.
+        *   Any text: Queries the customer data.

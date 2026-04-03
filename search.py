@@ -10,7 +10,7 @@ index = faiss.read_index("faiss_index.bin")
 with open("metadata.json", "r", encoding="utf-8") as f:
     documents = json.load(f)
 
-def semantic_search(query, k=100):
+def semantic_search(query, k=10):
     # 1. Encode Query
     query_vector = model.encode(query).astype("float32").reshape(1, -1)
     

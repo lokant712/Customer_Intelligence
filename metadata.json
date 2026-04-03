@@ -46,5 +46,125 @@
     "text": "Fast delivery and helpful customer support",
     "sentiment": "positive",
     "timestamp": "2025-02-17"
+  },
+  {
+    "customer_id": "C109",
+    "text": "Received wrong product and support took too long to resolve",
+    "sentiment": "negative",
+    "timestamp": "2025-02-18"
+  },
+  {
+    "customer_id": "C110",
+    "text": "Delivery was quick but the product quality was average",
+    "sentiment": "neutral",
+    "timestamp": "2025-02-19"
+  },
+  {
+    "customer_id": "C111",
+    "text": "Very satisfied with the fast delivery and product quality",
+    "sentiment": "positive",
+    "timestamp": "2025-02-20"
+  },
+  {
+    "customer_id": "C112",
+    "text": "Refund process was slow and customer support was unhelpful",
+    "sentiment": "negative",
+    "timestamp": "2025-02-21"
+  },
+  {
+    "customer_id": "C113",
+    "text": "Packaging was secure and delivery was on time",
+    "sentiment": "positive",
+    "timestamp": "2025-02-22"
+  },
+  {
+    "customer_id": "C114",
+    "text": "Tracking details were not updated properly and delivery got delayed",
+    "sentiment": "negative",
+    "timestamp": "2025-02-23"
+  },
+  {
+    "customer_id": "C115",
+    "text": "Product is decent for the price but delivery took longer",
+    "sentiment": "neutral",
+    "timestamp": "2025-02-24"
+  },
+  {
+    "customer_id": "C116",
+    "text": "Amazing experience, fast shipping and excellent service",
+    "sentiment": "positive",
+    "timestamp": "2025-02-25"
+  },
+  {
+    "customer_id": "C117",
+    "text": "Damaged item received and replacement took too long",
+    "sentiment": "negative",
+    "timestamp": "2025-02-26"
+  },
+  {
+    "customer_id": "C118",
+    "text": "Customer support was helpful but response time could be better",
+    "sentiment": "neutral",
+    "timestamp": "2025-02-27"
+  },
+  {
+    "customer_id": "C119",
+    "text": "Very quick delivery and product exceeded expectations",
+    "sentiment": "positive",
+    "timestamp": "2025-02-28"
+  },
+  {
+    "customer_id": "C120",
+    "text": "Delivery was late and packaging was poor",
+    "sentiment": "negative",
+    "timestamp": "2025-03-01"
+  },
+  {
+    "customer_id": "C121",
+    "text": "Product quality is good and delivery was smooth",
+    "sentiment": "positive",
+    "timestamp": "2025-03-02"
+  },
+  {
+    "customer_id": "C122",
+    "text": "Support team resolved my issue but it took multiple follow-ups",
+    "sentiment": "neutral",
+    "timestamp": "2025-03-03"
+  },
+  {
+    "customer_id": "C123",
+    "text": "Order arrived damaged and customer support did not respond properly",
+    "sentiment": "negative",
+    "timestamp": "2025-03-04"
+  },
+  {
+    "customer_id": "C124",
+    "text": "Excellent packaging and timely delivery",
+    "sentiment": "positive",
+    "timestamp": "2025-03-05"
+  },
+  {
+    "customer_id": "C125",
+    "text": "Delivery was okay but product did not match description",
+    "sentiment": "negative",
+    "timestamp": "2025-03-06"
+  },
+  {
+    "customer_id": "C126",
+    "text": "Support was polite and helped resolve the issue",
+    "sentiment": "positive",
+    "timestamp": "2025-03-07"
+  },
+  {
+    "customer_id": "C127",
+    "text": "Delivery delay caused inconvenience but product quality is fine",
+    "sentiment": "neutral",
+    "timestamp": "2025-03-08"
+  },
+  {
+    "customer_id": "C128",
+    "text": "Super fast delivery and great customer experience",
+    "sentiment": "positive",
+    "timestamp": "2025-03-09"
   }
 ]

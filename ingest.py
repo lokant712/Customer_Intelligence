@@ -12,7 +12,7 @@ embeddings = []
 
 # 2. Read Data
 print("Reading data...")
-with open("data/customer_data.csv", newline="", encoding="utf-8") as f:
+with open("data/cusotmer_data.csv", newline="", encoding="utf-8") as f:
     reader = csv.DictReader(f)
     for row in reader:
         documents.append(row)

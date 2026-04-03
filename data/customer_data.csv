@@ -1,9 +1,0 @@
-customer_id,text,sentiment,timestamp
-C101,"Delivery was delayed twice and customer support did not respond",negative,2025-02-10
-C102,"Product quality is good but delivery was slow",neutral,2025-02-11
-C103,"Excellent service and fast delivery",positive,2025-02-12
-C104,"Customer support responded late regarding my refund request",negative,2025-02-13
-C105,"The product arrived on time and was well packaged",positive,2025-02-14
-C106,"Delivery took longer than expected and tracking information was inaccurate",negative,2025-02-15
-C107,"Good product quality but the packaging was damaged",neutral,2025-02-16
-C108,"Fast delivery and helpful customer support",positive,2025-02-17

@@ -4,3 +4,4 @@ sentence-transformers
 google-genai
 streamlit
 python-dotenv
+python-telegram-bot
